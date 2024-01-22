@@ -8,10 +8,7 @@ import SlideCard from '../sub/SlideCard';
 
 const Projects = () => {
   return (
-    <div
-      className="flex flex-col items-center justify-center py-20"
-      id="projects"
-    >
+    <div className="flex flex-col items-center justify-center" id="projects">
       {/* JECTASK */}
       <h1 className="text-[50px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
         My Product
@@ -29,8 +26,8 @@ const Projects = () => {
         variants={slideInFromLeft(0.5)}
         className="text-[20px] text-white font-medium mt-[10px] text-center mb-[20px]"
       >
-        Jectask brings all your ideas, projects and tasks together easily. You
-        can turn every idea into a success project!
+        Jectask brings all your ideas, projects, and tasks together easily. You
+        can turn every idea into a successful project!
       </motion.div>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <SlideCard src="./jectask_dashhboard.png" title="Dashboard" />
