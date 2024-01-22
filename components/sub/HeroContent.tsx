@@ -45,7 +45,7 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m a lead full-stack developer with experience in website, web
-          app, and cloud development. Check out my projects and skills.
+          app, and cloud development.
         </motion.p>
 
         <motion.p
