@@ -54,12 +54,12 @@ const HeroContent = () => {
           className="text-md text-white max-w-[600px]"
         >
           Please check out my product{' '}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          {/* <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             {' '}
             <a href="https://www.jectask.com" target="_blank">
               Jectask
             </a>{' '}
-          </span>
+          </span> */}
         </motion.p>
         <motion.p
           variants={slideInFromLeft(0.8)}

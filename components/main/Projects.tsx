@@ -41,8 +41,10 @@ const Projects = () => {
         <SlideCard src="./jectask_help.png" title="Help" />
       </div>
 
+      <span className="w-full p-0.5 bg-purple-600 lg:w-2/3 mt-20"></span>
+
       {/*  PROJECTS */}
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pt-40 pb-10">
+      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mt-20 mb-10">
         Just For Fun
       </h1>
       <motion.div
