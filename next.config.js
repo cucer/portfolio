@@ -1,15 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  async redirects() {
-    return [
-      {
-        source: '/jectask',
-        destination: 'https://www.jectask.com',
-        permanent: true,
-      },
-    ];
-  },
-  output: 'export',
-};
+const nextConfig = {};
 
 module.exports = nextConfig;
