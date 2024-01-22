@@ -18,7 +18,7 @@ const Projects = () => {
       </h1>
 
       <Image
-        src="/jectask_home.png"
+        src="./jectask_home.png"
         alt="logo"
         width={200}
         height={200}
@@ -33,12 +33,12 @@ const Projects = () => {
         can turn every idea into a success project!
       </motion.div>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        <SlideCard src="/jectask_dashhboard.png" title="Dashboard" />
-        <SlideCard src="/jectask_projects.png" title="Projects" />
-        <SlideCard src="/jectask_tasks.png" title="Tasks" />
-        <SlideCard src="/jectask_notes.png" title="Notes" />
-        <SlideCard src="/jectask_calendar.png" title="Calendar" />
-        <SlideCard src="/jectask_help.png" title="Help" />
+        <SlideCard src="./jectask_dashhboard.png" title="Dashboard" />
+        <SlideCard src="./jectask_projects.png" title="Projects" />
+        <SlideCard src="./jectask_tasks.png" title="Tasks" />
+        <SlideCard src="./jectask_notes.png" title="Notes" />
+        <SlideCard src="./jectask_calendar.png" title="Calendar" />
+        <SlideCard src="./jectask_help.png" title="Help" />
       </div>
 
       {/*  PROJECTS */}
@@ -57,20 +57,20 @@ const Projects = () => {
         Repository! This repository contains a collection of fun projects.
       </motion.div>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        <ProjectCard src="/yachting.png" title="Uzel Yachting" />
-        <ProjectCard src="/djshop.png" title="Dj Shop" />
-        <ProjectCard src="/covid.png" title="Covid Tracker" />
-        <ProjectCard src="/restoran.png" title="Restoran Haftası" />
-        <ProjectCard src="/yesim.png" title="Artist Portfolio" />
-        <ProjectCard src="/circle.png" title="Funny Circles" />
+        <ProjectCard src="./yachting.png" title="Uzel Yachting" />
+        <ProjectCard src="./djshop.png" title="Dj Shop" />
+        <ProjectCard src="./covid.png" title="Covid Tracker" />
+        <ProjectCard src="./restoran.png" title="Restoran Haftası" />
+        <ProjectCard src="./yesim.png" title="Artist Portfolio" />
+        <ProjectCard src="./circle.png" title="Funny Circles" />
       </div>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 pt-5">
-        <ProjectCard src="/spacex.png" title="SpaceX Launches" />
-        <ProjectCard src="/packagesizer.png" title="Package Sizer" />
-        <ProjectCard src="/song.png" title="Song Searcher" />
-        <ProjectCard src="/metrics.png" title="Metrics" />
-        <ProjectCard src="/djangular.png" title="Dj Equipments" />
-        <ProjectCard src="/github.png" title="GitHub Finder" />
+        <ProjectCard src="./spacex.png" title="SpaceX Launches" />
+        <ProjectCard src="./packagesizer.png" title="Package Sizer" />
+        <ProjectCard src="./song.png" title="Song Searcher" />
+        <ProjectCard src="./metrics.png" title="Metrics" />
+        <ProjectCard src="./djangular.png" title="Dj Equipments" />
+        <ProjectCard src="./github.png" title="GitHub Finder" />
       </div>
     </div>
   );
