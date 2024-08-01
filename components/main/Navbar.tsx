@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a href="#about" className="h-auto w-auto flex flex-row items-center">
           <Image
-            src="./cgty.png"
+            src="./cgty_logo.png"
             alt="logo"
             width={50}
             height={50}
@@ -23,20 +23,6 @@ const Navbar = () => {
             Cagatay Ucer
           </span>
         </a>
-
-        {/* <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about" className="cursor-pointer">
-              About me
-            </a>
-            <a href="#skills" className="cursor-pointer">
-              Skills
-            </a>
-            <a href="#projects" className="cursor-pointer">
-              Projects
-            </a>
-          </div>
-        </div> */}
 
         <div className="flex flex-row gap-5 text-gray-200">
           {Socials.map((social, index) => (

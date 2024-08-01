@@ -116,7 +116,7 @@ export const Socials = [
     url: 'https://github.com/cucer',
   },
   {
-    name: 'SoundCloud',
-    url: 'https://soundcloud.com/cagatayucer/soul-transformation-frndzzacademy-cgty',
+    name: 'Youtube',
+    url: 'https://youtu.be/EVMdQviQSfQ?feature=shared',
   },
 ];

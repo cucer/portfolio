@@ -44,15 +44,15 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a lead full-stack developer with experience in website, web
-          app, and cloud development.
+          I&apos;m a full-stack developer with experience in website, web app,
+          and cloud development.
         </motion.p>
 
         <motion.p
           variants={slideInFromLeft(0.8)}
           className="text-md text-white max-w-[600px]"
         >
-          Please check out my product{' '}
+          Please check out my own SaaS product{' '}
           {/* <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             {' '}
             <a href="https://www.jectask.com" target="_blank">
