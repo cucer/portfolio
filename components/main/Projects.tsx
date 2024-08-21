@@ -3,16 +3,16 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { slideInFromLeft } from '@/utils/motion';
-import ProjectCard from '../sub/ProjectCard';
+// import ProjectCard from '../sub/ProjectCard';
 import SlideCard from '../sub/SlideCard';
 
 const Projects = () => {
   return (
     <div className="flex flex-col items-center justify-center" id="projects">
       {/* JECTASK */}
-      <h1 className="text-[50px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
+      {/* <h1 className="text-[50px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
         My Product
-      </h1>
+      </h1> */}
 
       <Image
         src="./jectask_home.png"
@@ -24,7 +24,7 @@ const Projects = () => {
 
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className="text-[20px] text-white font-medium mt-[10px] text-center mb-[20px]"
+        className="text-[20px] font-medium mt-[10px] text-center mb-[20px] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"
       >
         Jectask brings all your ideas, projects, and tasks together easily. You
         can turn every idea into a successful project!
@@ -40,7 +40,7 @@ const Projects = () => {
 
       <span className="w-full p-0.5 bg-purple-600 lg:w-2/3 mt-20"></span>
 
-      {/*  PROJECTS */}
+      {/*  PROJECTS 
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mt-20 mb-10">
         Just For Fun
       </h1>
@@ -71,6 +71,7 @@ const Projects = () => {
         <ProjectCard src="./djangular.png" title="Dj Equipments" />
         <ProjectCard src="./github.png" title="GitHub Finder" />
       </div>
+      */}
     </div>
   );
 };
