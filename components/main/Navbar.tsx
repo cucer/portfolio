@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { Socials } from '@/constants';
-import { RxGithubLogo, RxLinkedinLogo, RxSpeakerLoud } from 'react-icons/rx';
+import { RxGithubLogo, RxLinkedinLogo } from 'react-icons/rx';
 import { AiFillYoutube } from 'react-icons/ai';
 
 const Navbar = () => {
