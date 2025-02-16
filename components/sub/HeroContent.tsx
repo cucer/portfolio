@@ -1,13 +1,12 @@
 'use client';
 
-import React from 'react';
-import { motion } from 'framer-motion';
 import {
   slideInFromLeft,
   slideInFromRight,
   slideInFromTop,
 } from '@/utils/motion';
 import { SparklesIcon } from '@heroicons/react/24/solid';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const HeroContent = () => {
@@ -23,7 +22,7 @@ const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">Developer & DJ</h1>
+          <h1 className="Welcome-text text-[13px]">Full Stack Developer</h1>
         </motion.div>
 
         <motion.div
@@ -44,12 +43,10 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          As the founder of Jectask, I&apos;ve channeled my technical acumen
-          into creating a non-profit SAAS platform that empowers users with
-          user-friendly project planning and task tracking tools. My dedication
-          to this initiative reflects a deep-seated belief in the transformative
-          power of efficient workflows and the importance of accessible,
-          innovative solutions for the tech community.
+          I founded Jectask to build a free SAAS platform that makes project
+          planning and task tracking easy for everyone. I'm passionate about
+          creating efficient workflows and bringing accessible, innovative tools
+          to the tech community. 🚀
         </motion.p>
 
         <motion.p
