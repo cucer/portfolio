@@ -43,10 +43,14 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I founded Jectask to build a free SAAS platform that makes project
-          planning and task tracking easy for everyone. I'm passionate about
-          creating efficient workflows and bringing accessible, innovative tools
-          to the tech community.
+          I am an innovative and results-driven Full-Stack Developer with over
+          15 years of experience in designing and delivering high-performance
+          software solutions. My expertise spans modern JavaScript frameworks
+          (React, Next.js, Node.js) and database systems (Oracle, MongoDB,
+          PL/SQL). I have led cross-functional teams, mentored developers, and
+          implemented secure, scalable applications in Agile environments. I am
+          passionate about developing efficient, secure, and user-friendly
+          applications that drive business success.
         </motion.p>
 
         <motion.p
