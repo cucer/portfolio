@@ -46,7 +46,7 @@ const HeroContent = () => {
           I founded Jectask to build a free SAAS platform that makes project
           planning and task tracking easy for everyone. I'm passionate about
           creating efficient workflows and bringing accessible, innovative tools
-          to the tech community. 🚀
+          to the tech community.
         </motion.p>
 
         <motion.p
